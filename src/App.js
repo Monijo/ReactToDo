@@ -3,6 +3,7 @@ import './App.css';
 import Todo from "./components/Todo";
 
 
+
 class App extends Component {
     render() {
         return (
@@ -12,6 +13,7 @@ class App extends Component {
                 <Todo text="zamówić karme kotu"/>
                 <Todo text="Zrobic taski z django"/>
                 <Todo text="Poczytac o DL"/>
+
 
             </div>
         );
